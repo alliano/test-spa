@@ -1,0 +1,24 @@
+{
+  "product": [
+    {
+      "nameProduct": "MacBook",
+      "imgPath": "../img/macBook.jpeg",
+      "price": "RP.30.000.000.00"
+    },
+    {
+      "nameProduct": "Samsung",
+      "imgPath": "../img/samsung.jpeg",
+      "price": "RP.45.000.000.00"
+    },
+    {
+      "nameProduct": "Dell",
+      "imgPath": "../img/dell.jpeg",
+      "price": "RP.35.000.000.00"
+    },
+    {
+      "nameProduct": "Assus ROG",
+      "imgPath": "../img/rog.jpeg",
+      "price": "RP.70.000.000.00"
+    }
+  ]
+}

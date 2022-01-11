@@ -1,0 +1,28 @@
+{
+  "name": [
+    {
+      "restoName": "Trenggalek Resto",
+      "address": "jl.soedirman",
+      "rate": "100%",
+      "imgPath": "../img/1.jpeg"
+    },
+    {
+      "restoName": "Palopo Resto",
+      "address": "js.santoso:)",
+      "rate": "70%",
+      "imgPath": "../img/2.jpeg"
+    },
+    {
+      "restoName": "Raja Ampat Resto",
+      "address": "jl.transburu",
+      "rate": "100%",
+      "imgPath": "../img/4.jpeg"
+    },
+    {
+      "restoName": "Surabaya Resto",
+      "address": "JL.telaga kautsat",
+      "rate": "100%",
+      "imgPath": "../img/5.jpeg"
+    }
+  ]
+}
