@@ -87,8 +87,34 @@ $(document).ready(function () {
                
             })
                 
-            }
-    
+        }
+        $("#indo").on("click", function () {
+            let price = $(".card .group #price");
+            $.getJSON("../convert/data.json", function (res) {
+                if (checkURL().hash === "#/page-1") {
+                    $(price[0]).text(res.indo.macbook);
+                    $(price[1]).text(res.indo.samsung);
+                    $(price[2]).text(res.indo.dell);
+                    $(price[3]).text(res.indo.asusRog);   
+                  
+                }
+            })
+        })
+        $("#amer").on("click", function () {
+            let price = $(".card .group #price");
+            $.getJSON("../convert/data.json", function (res) {
+                if (checkURL().hash === "#/page-1") {
+                    $(price[0]).text(res.america.macbook);
+                    $(price[1]).text(res.america.samsung);
+                    $(price[2]).text(res.america.dell);
+                    $(price[3]).text(res.america.asusRog);   
+                  
+                }
+            })
+        })
+        if (checkURL().hash === "#/page-3" || checkURL().hash === "#/page-4" || checkURL().hash === "#/products") {
+        $()
+    }
   }
 
 

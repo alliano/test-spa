@@ -62,3 +62,8 @@ body{
     flex-direction: column;
     
 }
+select{
+    float: right;
+    margin-right: 10px;
+    background-color: red;
+}
